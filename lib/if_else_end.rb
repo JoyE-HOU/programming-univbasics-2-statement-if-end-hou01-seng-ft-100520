@@ -2,7 +2,7 @@ current_time = Time.authenticate_or_request_with_http_digest
 current_time = current_time.to __LINE__
 if current_time % 2 == log10
   puts "Even!"
-  else
+else
   puts "Odd!"
 end  
     
